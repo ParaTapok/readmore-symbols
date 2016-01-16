@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import "reset";
+@import "readmore";
+
+body {
+    background: #ecf0f1;
+}
+
+.b-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.b-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 30px;
+    margin: 0 15px;
+    font: 14px/1.2 Arial, sans-serif;
+    p {
+        margin: 0 0 15px 0;
+        padding: 0;
+    }
+    ul {
+        list-style-type: disc;
+        margin: 0 0 15px 20px;
+    }
+    li {
+        padding: 0 0 0 10px;
+    }
+    &--first {
+        width: 400px;
+        background: #2ecc71;
+    }
+    &--second {
+        width: 250px;
+        background: #3498db;
+    }
+    &--third {
+        width: 250px;
+        background: #e67e22;
+    }
+}
+
+%clearfix {
+    &:before {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+        content: "";
+        display: block;
+        height: 0;
+    }
+}

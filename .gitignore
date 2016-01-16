@@ -1,0 +1,3 @@
+#node and sass
+.sass-cache/*
+node_modules/*

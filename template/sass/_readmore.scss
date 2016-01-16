@@ -1,0 +1,30 @@
+.b-readmore {
+    padding: 15px 0 0 0;
+    &__toogle {
+
+    }
+    &__link {
+        color: #000;
+        text-decoration: underline;
+        &:hover,
+        &:focus,
+        &:active {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    &__open {
+        display: inline-block;
+    }
+    &__close {
+        display: none;
+    }
+    &--opened & {
+        &__open {
+            display: none;
+        }
+        &__close {
+            display: inline-block;
+        }
+    }
+}

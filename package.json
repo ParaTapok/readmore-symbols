@@ -1,0 +1,15 @@
+{
+  "name": "readmore-symbols",
+  "version": "1.0.1",
+  "description": "",
+  "author": "ParaTapok",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-watch": "^4.3.5",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-filter": "^3.0.1"
+  }
+}
